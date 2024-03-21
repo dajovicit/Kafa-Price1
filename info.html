@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsivan sajt sa Bootstrapom</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+      footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body >
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="slike/logo.jpg" width="75px">Kafa & Price</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">O nama <span class="sr-only"></span></a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="info.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Informacije
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="galerija.html">Galerija</a>
+            <a class="dropdown-item" href="meni.html">Meni</a>
+            <div class="dropdown-divider"></div>
+           
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+    
+  <br>
+  <br>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Kontakt</h5>
+          <p>Adresa: Bulevar Oslobodjenja 62, Novi Sad</p>
+          <p>Email: infokafeiprice@gmail.com</p>
+          <p>Telefon: 056/221-480</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Pratite nas</h5>
+          <a href="#"><img src="slike/inst.jpg" alt="Instagram" style="width: 30px; height: 30px; margin-right: 10px;"></a>
+          <a href="#"><img src="slike/fb.jpg" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;"></a>
+          <a href="#"><img src="slike/x.jpg" alt="X" style="width: 30px; height: 30px;"></a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <h5>Pišite nam</h5>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ime">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="3" placeholder="Poruka"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Pošalji</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
